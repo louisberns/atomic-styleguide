@@ -1,0 +1,24 @@
+.menu-pane {
+  width: 20%;
+  height: 100%;
+  min-width: 200px;
+  border-right: 1px solid;
+
+  .menu-pane__list {
+    @extend .list-none;
+    margin: 15px;
+
+    .menu-pane__item {
+      line-height: 2em;
+    }
+  }
+
+  .menu-pane__sub-items__list {
+    @extend .menu-pane__list;
+    margin: 10px;
+
+    .menu-pane__sub-item {
+      @extend .menu-pane__item;
+    }
+  }
+}

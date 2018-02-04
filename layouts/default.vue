@@ -1,19 +1,18 @@
 
 <template>
-  <div id="app">
-      <menutop></menutop>
+  <div id="app" class="container">
+    <menupane/>
     <nuxt/>
-
   </div>
 </template>
 
 <script>
-  import menutop from '@/components/menutop';
+  import menupane from '@/components/menupane';
 
   export default {
     name: 'app',
     components: {
-      menutop
+      menupane
     },
     mounted() {},
     data() {
@@ -23,5 +22,5 @@
 </script>
 
 <style lang="scss">
-  @import './assets/css/main.scss'
+  @import './assets/css/main.scss';
 </style>

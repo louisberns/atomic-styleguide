@@ -1,6 +1,6 @@
 module.exports = {
   router: {
-    base: '/atomic-styleguide/'
+    base: '/'
   },
   css: [
     'node_modules/the-grid-flexbox/css/the-grid.min.css'
@@ -54,16 +54,16 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/apple-icon-180x180.png' },
       { rel: 'base', href: 'https://atomic-styleguide.herokuapp.com/' },
       { rel: 'canonical', href: 'https://atomic-styleguide.herokuapp.com/' }
-    ],
-    script: [{
+    ]
+    /*script: [{
       src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'
-    }]
+    }]*/
   },
 
   loading: { color: '#00ce8c', height: '5px' },
 
   plugins: [
-    { src: '~plugins/highlights.js', ssr: false }
+    /*{ src: '~plugins/highlights.js', ssr: false }*/
   ],
 
   build: {
