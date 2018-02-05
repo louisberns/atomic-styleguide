@@ -6,8 +6,8 @@
         <router-link :to="{ path: item.src }" class="menu-pane__item__link">{{ item.title }}</router-link>
       </li>
       <li class="menu-pane__item dropdown" v-else-if="item.subRoute">
-          {{ item.title }}
-          <!--<img src="" alt="Dropdown toggle arrow" v-if="item.subRoute">-->
+          <span>{{ item.title }}</span>
+          <i class="chevron-square-down"></i>
           <ul class="menu-pane__sub-items__list">
             <li class="menu-pane__sub-item" v-for="subItem in item.subRoute">
               <router-link :to="{ path: subItem.src }" class="menu-pane__item__link">{{ subItem.title }}</router-link>

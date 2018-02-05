@@ -10,6 +10,12 @@
 
     .menu-pane__item {
       line-height: 2em;
+
+      .menu-pane__item__link {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
     }
   }
 
@@ -19,6 +25,11 @@
 
     .menu-pane__sub-item {
       @extend .menu-pane__item;
+
+      .menu-pane__sub-item__link {
+        @extend .menu-pane__item__link;
+
+      }
     }
   }
 }

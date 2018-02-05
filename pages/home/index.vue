@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="container">
+  <div id="home" class="container">
     <pageHeader :title="title" :message="message" />
   </div>
 </template>

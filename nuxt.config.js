@@ -54,10 +54,11 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/icons/apple-icon-180x180.png' },
       { rel: 'base', href: 'https://atomic-styleguide.herokuapp.com/' },
       { rel: 'canonical', href: 'https://atomic-styleguide.herokuapp.com/' }
-    ]
-    /*script: [{
-      src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'
-    }]*/
+    ],
+    script: [{
+      /*src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'*/
+      /*src: 'https://use.fontawesome.com/releases/v5.0.6/js/all.js'*/
+    }]
   },
 
   loading: { color: '#00ce8c', height: '5px' },
