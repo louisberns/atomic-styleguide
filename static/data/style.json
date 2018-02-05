@@ -1,0 +1,61 @@
+{
+  "colors" : {
+    "primary" : [
+      {
+        "hex" : "#191844"
+      },
+      {
+        "hex" : "#ffffff"
+      },
+      {
+        "hex" : "#dedfe1"
+      }
+    ],
+    "secondary" : [
+      {
+        "hex" : "#c4d6e4"
+      },
+      {
+        "hex" : "#e4ecf3"
+      },
+      {
+        "hex" : "#205e8f"
+      },
+      {
+        "hex" : "#0093dd"
+      },
+      {
+        "hex" : "#0d426a"
+      },
+      {
+        "hex" : "#eeeff1"
+      }
+    ],
+    "feedback" : [
+      {
+        "hex" : "#219653"
+      },
+      {
+        "hex" : "#eb5757"
+      },
+      {
+        "hex" : "#f2c94c"
+      },
+      {
+        "hex" : "#f2994a"
+      },
+      {
+        "hex" : "#2f80ed"
+      },
+      {
+        "hex" : "#af74e6"
+      },
+      {
+        "hex" : "#bdbdbd"
+      },
+      {
+        "hex" : "#4f4f4f"
+      }
+    ]
+  }
+}

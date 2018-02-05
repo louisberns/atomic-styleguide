@@ -3,14 +3,13 @@
 
   <div class="example">
     <titleComponent>
-      <span slot="title">Colors</span>
+      <span slot="title">Cores primárias</span>
     </titleComponent>
     <div class="container wrap">
-      <div class="box-colors text-center container column align-items-center" v-for="x in colors">
-        <div class="box" :style="{ background: x.hex }"></div>
+      <div class="box-colors text-center container column align-items-center" v-for="i in style.colors.primary">
+        <div class="box" :style="{ background: i }"></div>
         <div class="text">
-          <strong>{{x.name}}</strong>
-          <p><small>{{x.hex}}</small></p>
+          <p>{{ i.hex }}</p>
         </div>
       </div>
     </div>
@@ -18,29 +17,27 @@
 
   <div class="example">
     <titleComponent>
-      <span slot="title">Gradients</span>
-    </titleComponent>
-    <div class="container column wrap">
-      <!-- background: linear-gradient(10deg, #333, #222); -->
-      <div v-for="x in gradients" class="flex-grow-1">
-        <div class="box-gradient text-center container justify-content-center align-items-center" :style="{background: 'linear-gradient(to right,' + x.color + ',' + x.color2 + ')'}">
-          <div class="text container column">
-            <strong>{{x.name}}</strong>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="example">
-    <titleComponent>
-      <span slot="title">Shadows</span>
+      <span slot="title">Cores secundárias</span>
     </titleComponent>
     <div class="container wrap">
-      <div class="box-shadow text-center container justify-content-center align-items-center" v-for="x in shadows" :style="{ boxShadow: '0 ' + '0 ' + x.size + 'px ' + x.smooth + 'px ' +  'rgba(0,0,0,.1)'}">
-        <div class="text container column">
-          <strong>{{x.name}}</strong>
-          <!-- <small style="font-size: 10px">box-shadow: 0 0 {{x.size}}px {{x.smooth}}px rgba(0,0,0,.1)</small> -->
+      <div class="box-colors text-center container column align-items-center" v-for="i in style.colors.secondary">
+        <div class="box" :style="{ background: i }"></div>
+        <div class="text">
+          <p>{{ i.hex }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="example">
+    <titleComponent>
+      <span slot="title">Cores de feedback</span>
+    </titleComponent>
+    <div class="container wrap">
+      <div class="box-colors text-center container column align-items-center" v-for="i in style.colors.feedback">
+        <div class="box" :style="{ background: i }"></div>
+        <div class="text">
+          <p>{{ i.hex }}</p>
         </div>
       </div>
     </div>
@@ -50,7 +47,8 @@
 </template>
 
 <script>
-import titleComponent from '@/components/titleComponent'
+import titleComponent from '@/components/titleComponent';
+import style from '@/static/data/style.json';
 
 export default {
   name: 'colors',
@@ -60,6 +58,7 @@ export default {
   name: 'colors',
   data() {
     return {
+      style,
       colors: [{
           name: 'Primary',
           hex: '#50fa7b'

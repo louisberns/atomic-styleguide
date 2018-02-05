@@ -1,15 +1,15 @@
 <template lang="html">
-  <div id="home" class="container">
-    <pageHeader :title="title" :message="message" />
+  <div id="home" class="container size margin">
+    <pageIndex/>
   </div>
 </template>
 
 <script>
-import pageHeader from '@/components/page-header';
+import pageIndex from '@/components/page-header-index';
 
 export default {
   components: {
-    pageHeader
+    pageIndex
   },
   data() {
     return {
