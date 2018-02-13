@@ -1,12 +1,17 @@
 <template lang="html">
   <div id="colors" class="">
-
+    <colors/>
   </div>
 </template>
 
 <script>
-export default {
-}
+  import colors from '@/components/colors';
+
+  export default {
+    components: {
+      colors
+    }
+  }
 </script>
 
 <style lang="css">

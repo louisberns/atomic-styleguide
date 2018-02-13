@@ -53,7 +53,8 @@ p {
 }
 
 a {
-  color: #50fa7b;
+  display: block;
+  color: $color-primary;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -61,7 +62,7 @@ a {
 }
 
 a:hover {
-  color: #487552;
+  color: $color-black;
 }
 
 .font-regular {
@@ -95,4 +96,14 @@ i {
 
 .text-center {
   text-align: center;
+}
+
+.primary-title {
+
+}
+
+.paragraph {
+  font: $text-primary;
+  font-weight: 400;
+  text-align: justify;
 }

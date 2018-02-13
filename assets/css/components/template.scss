@@ -1,0 +1,24 @@
+.main-content {
+  box-sizing: border-box;
+  max-width: 80%;
+  margin: 40px 0 0 20%;
+}
+
+.page-header {
+
+  .page-header__info {
+
+    .page-header__title {
+        color: $color-black;
+
+      &.sub-title {
+        color: $color-gray;
+      }
+    }
+
+    .page-header__message {
+      @extend .paragraph;
+      margin: 40px 0;
+    }
+  }
+}

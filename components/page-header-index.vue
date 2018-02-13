@@ -1,21 +1,23 @@
 <template lang="html">
-  <div class="container">
-    <div class="">
-      <img src="" alt="">
+  <div class="page-header index-page container">
+    <div class="page-header__info" v-if="info.index">
+      <h1 class="page-header__title"> {{ info.index.title }} </h1>
+      <span class="page-header__title sub-title"> {{ info.index.subTitle }} </span>
+
+      <p class="page-header__message"> {{ info.index.message }} </p>
+
+      <div class="page-header__image">
+        <img src="" alt="">
+      </div>
     </div>
-    <div class="">
-      <h1>Hospitalar Styleguide</h1>
-      <p>Referência de estilo e interações para front-end consistente e melhor experiência do usuário.</p>
-    </div>
-    <div class="" v-if="info.index">
-      <h1> {{ info.index.title }} </h1>
-      <p> {{ info.index.message }} </p>
-    </div>
+    <aside class="page-header__aside container">
+
+    </aside>
   </div>
 </template>
 
 <script>
-import info from '@/static/data/base.json';
+import info from '@/static/data/info.json';
 
 export default {
   data() {

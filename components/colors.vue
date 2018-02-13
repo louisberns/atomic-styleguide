@@ -7,7 +7,7 @@
     </titleComponent>
     <div class="container wrap">
       <div class="box-colors text-center container column align-items-center" v-for="i in style.colors.primary">
-        <div class="box" :style="{ background: i }"></div>
+        <div class="box" :style="{ background: i.hex }"></div>
         <div class="text">
           <p>{{ i.hex }}</p>
         </div>
@@ -21,7 +21,7 @@
     </titleComponent>
     <div class="container wrap">
       <div class="box-colors text-center container column align-items-center" v-for="i in style.colors.secondary">
-        <div class="box" :style="{ background: i }"></div>
+        <div class="box" :style="{ background: i.hex }"></div>
         <div class="text">
           <p>{{ i.hex }}</p>
         </div>
@@ -35,7 +35,7 @@
     </titleComponent>
     <div class="container wrap">
       <div class="box-colors text-center container column align-items-center" v-for="i in style.colors.feedback">
-        <div class="box" :style="{ background: i }"></div>
+        <div class="box" :style="{ background: i.hex }"></div>
         <div class="text">
           <p>{{ i.hex }}</p>
         </div>

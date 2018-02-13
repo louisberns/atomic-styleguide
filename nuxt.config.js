@@ -61,7 +61,7 @@ module.exports = {
     }]
   },
 
-  loading: { color: '#00ce8c', height: '5px' },
+  loading: { color: '#ffff00', height: '5px' },
 
   plugins: [
     /*{ src: '~plugins/highlights.js', ssr: false }*/

@@ -2,7 +2,7 @@
 <template>
   <div id="app" class="container">
     <menupane/>
-    <nuxt/>
+    <nuxt class="main-content" />
   </div>
 </template>
 

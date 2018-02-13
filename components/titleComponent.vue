@@ -2,7 +2,7 @@
 <div>
 
   <div class="title padding-left-20 ">
-    <h2><slot name="title"></slot>.</h2>
+    <h2><slot name="title"></slot></h2>
   </div>
 
 </div>
@@ -29,11 +29,12 @@ export default {
             content: '';
             display: block;
             position: absolute;
-            background: #50fa7b;
-            width: 120px;
-            height: 10px;
+            background: #ffff00;
+            width: 10%;
+            height: 30px;
             left: 0;
-            bottom: -15px;
+            bottom: 0;
+            z-index: -2;
         }
     }
 }

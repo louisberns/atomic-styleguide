@@ -1,7 +1,10 @@
 <template lang="html">
-  <div class="page-header container column">
-    <h1 class="page-header__title">{{ title }}</h1>
-    <p class="page-header__message">{{ message }}</p>
+  <div class="page-header container size margin">
+    <div class="page-header__info">
+      <h1 class="page-header__title">{{ title }}</h1>
+      <span class="page-header__title sub-title">{{ subTitle }}</span>
+      <p class="page-header__message">{{ message }}</p>
+    </div>
   </div>
 </template>
 
@@ -9,6 +12,9 @@
 export default {
   props: {
     title: {
+      type: String
+    },
+    subTitle: {
       type: String
     },
     message: {

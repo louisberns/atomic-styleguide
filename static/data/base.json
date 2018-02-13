@@ -3,75 +3,75 @@
     "routes" : [
       {
         "title" : "Home",
-        "src" : "#home"
+        "src" : "/"
       },
       {
         "title" : "About",
-        "src" : "#about"
+        "src" : "/about"
       },
       {
         "title" : "Components",
-        "src" : "#components",
+        "src" : "/components",
         "subRoute" : [
           {
             "title" : "Buttons",
-            "src" : "#buttons"
+            "src" : "/components/buttons"
           },
           {
             "title" : "Forms",
-            "src" : "#forms"
+            "src" : "/components/forms"
           },
           {
             "title" : "Grids",
-            "src" : "#grids"
+            "src" : "/components/grids"
           },
           {
             "title" : "Labels",
-            "src" : "#labels"
+            "src" : "/components/labels"
           },
           {
             "title" : "Menus",
-            "src" : "#menus"
+            "src" : "/components/menus"
           },
           {
             "title" : "Modals",
-            "src" : "#modals"
+            "src" : "/components/modals"
           },
           {
             "title" : "Tooltips",
-            "src" : "#tooltips"
+            "src" : "/components/tooltips"
           }
         ]
       },
       {
         "title" : "Style",
-        "src" : "#style",
+        "src" : "/style",
         "subRoute" : [
           {
             "title" : "Colors",
-            "src" : "#colors"
+            "src" : "/style/colors"
           },
           {
             "title" : "Iconography",
-            "src" : "#iconography"
+            "src" : "/style/iconography"
           },
           {
             "title" : "Typography",
-            "src" : "#typography"
+            "src" : "/style/typography"
           }
         ]
       },
       {
         "title" : "Contact",
-        "src" : "#contact"
+        "src" : "/contact"
       },
       {
         "title" : "Principles",
-        "src" : "#principles"
+        "src" : "/principles"
       },
       {
         "title" : "Releases",
-        "src" : "#releases"
+        "src" : "/releases"
       }
     ]
   }

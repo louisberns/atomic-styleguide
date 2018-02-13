@@ -1,7 +1,6 @@
 <template>
 <div class="container column">
   <home/>
-  <colors/>
 </div>
 </template>
 
