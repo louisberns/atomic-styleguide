@@ -1,12 +1,12 @@
 <template>
 <div class="container column">
-  <home/>
+	<home/>
 </div>
 </template>
 
 <script>
 import home from '@/pages/home';
-import colors from '@/components/colors'
+import colors from '@/components/colors';
 
 export default {
   components: {
