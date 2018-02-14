@@ -12,11 +12,105 @@
   "components" : {
     "title" : "Components list",
     "subTitle" : "Sub title components header",
-    "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "items" : {
+      "buttons" : {
+        "title" : "Buttons",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : "",
+        "titleInfo" : "Guidelines list",
+        "infoMessage" : "Lorem impsum asodifhosdgi",
+        "listInfo" : [
+          {
+            "item" : "List item one ipsum"
+          },
+          {
+            "item" : "List item two lorem"
+          }
+        ]
+      },
+      "forms" : {
+        "title" : "Forms",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "grids" : {
+        "title" : "Grids",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "labels" : {
+        "title" : "Labels",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "menus" : {
+        "title" : "Menus",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "modals" : {
+        "title" : "Modals",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "tooltips" : {
+        "title" : "Tooltips",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      }
+    }
   },
   "style" : {
     "title" : "Style list",
     "subTitle" : "Sub title style header",
-    "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "message" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "items" : {
+      "colors" : {
+        "title" : "Colors",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "iconography" : {
+        "title" : "Iconography",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      },
+      "typography" : {
+        "title" : "Typography",
+        "subTitle" : "",
+        "message" : "",
+        "bestPractices" : "",
+        "howToUse" : "",
+        "codeExample" : ""
+      }
+    }
   }
 }
