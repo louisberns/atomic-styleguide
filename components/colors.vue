@@ -1,5 +1,5 @@
 <template>
-<div class="size margin">
+<div class="">
 
   <div class="example">
     <titleComponent>

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div id="home" class="container size margin">
+  <div id="home" class="container">
     <pageIndex/>
     <pageHeader :title="info.index.title" :subTitle="info.index.subTitle" :message="info.index.message" />
   </div>
@@ -17,9 +17,7 @@ export default {
   },
   data() {
     return {
-      info,
-      title: 'Atomic Design System',
-      message: 'A set of components and style guides bounded with our principles.'
+      info
     }
   }
 

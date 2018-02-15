@@ -3,17 +3,14 @@
     <div class="page-header__info">
     
     </div>
-    
   </div>
 </template>
 
 <script>
-import info from '@/static/data/info.json';
 
 export default {
   data() {
     return {
-      info
     }
   }
 }

@@ -2,6 +2,7 @@
   width: 20%;
   height: 100vh;
   min-width: 200px;
+  max-width: 250px;
   border-right: 1px solid;
   overflow: auto;
   align-items: center;
@@ -16,6 +17,7 @@
 
     img {
       width: 100%;
+      max-width: 200px;
     }
   }
 
