@@ -1,6 +1,8 @@
 <template lang="html">
-  <div id="home" class="container">
-    <pageIndex/>
+  <div id="home" class="container column">
+    <pageIndex :title="info.index.banner.title">
+      <img slot="image" src="@/static/logo.svg" />
+    </pageIndex>
     <pageHeader :title="info.index.title" :subTitle="info.index.subTitle" :message="info.index.message" />
   </div>
 </template>
@@ -11,6 +13,7 @@ import pageIndex from '@/components/page-header-index';
 import pageHeader from '@/components/page-header';
 
 export default {
+  name: 'home',
   components: {
     pageIndex,
     pageHeader
