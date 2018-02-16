@@ -1,8 +1,8 @@
 <template lang="html">
   <div class="page-header index-page container">
     <div class="page-header__info container column">
-    	<img class="page-header__img" :src="imgSRC" :alt="imgALT" v-if="imgSRC">
-    	<slot :name="image"></slot>
+    	<!--<img class="page-header__img" :src="imgSRC" :alt="imgALT" v-if="imgSRC">-->
+    	<slot name="image"></slot>
     	<h1 class="page-header__title"> {{ title }} </h1>
     </div>
   </div>
@@ -50,13 +50,15 @@
 			.page-header__title {
 				color: $color-secondary;
 				text-align: center;
+				margin: 20px 0;
 			}
 
 			.page-header__img {
 				width: 100%;
 				max-width: 250px;
 				align-self: center;
-				justify-self: center
+				justify-self: center;
+				margin: 20px 0;
 			}
 		}
 	}

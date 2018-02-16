@@ -1,7 +1,7 @@
 <template lang="html">
   <div id="home" class="container column">
     <pageIndex :title="info.index.banner.title">
-      <img slot="image" src="@/static/logo.svg" />
+      <img slot="image" src="@/static/logo.svg" class="page-header__img"/>
     </pageIndex>
     <pageHeader :title="info.index.title" :subTitle="info.index.subTitle" :message="info.index.message" />
   </div>
