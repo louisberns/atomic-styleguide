@@ -55,19 +55,18 @@ module.exports = {
       { rel: 'base', href: 'https://atomic-styleguide.herokuapp.com/' },
       { rel: 'canonical', href: 'https://atomic-styleguide.herokuapp.com/' }
     ],
-    script: [{
-      /*src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js'*/
-      /*src: 'https://use.fontawesome.com/releases/v5.0.6/js/all.js'*/
-    }]
+    script: [
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js' },
+      { src: 'https://use.fontawesome.com/releases/v5.0.6/js/all.js' }
+    ]
   },
 
   loading: { color: '#ffff00', height: '5px' },
 
   plugins: [
-    /*{ src: '~plugins/highlights.js', ssr: false }*/
+    { src: '~plugins/highlights.js', ssr: false }
   ],
 
   build: {
-
   }
 }

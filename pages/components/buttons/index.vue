@@ -1,7 +1,7 @@
 <template lang="html">
   <div id="buttons" class="">
     <pageHeader :title="info.components.items.buttons.title" :subTitle="info.components.items.buttons.subTitle" :message="info.components.items.buttons.message" />
-    <codeMirror/>
+    <codeMirror :codeExample="code"/>
     <componentInfo :title="info.components.items.buttons.titleInfo" :message="info.components.items.buttons.infoMessage" :listItem="info.components.items.buttons.listInfo"/>
   </div>
 </template>
@@ -21,7 +21,16 @@
     },
     data() {
       return {
-        info
+        info,
+        code: '<div class="content__buttons">\
+                            <ul class="content__buttons__list">\
+                                <li class="content__buttons__item">\
+                                    <div class="content__buttons__block">\
+                                        <asp:Button ID="btnConfirmar" runat="server" Text="Confirmar" CssClass="content__buttons__btn" Visible="true"  OnClick="bntConfirmar_Click"/>\
+                                    </div>\
+                                </li>\
+                            </ul>\
+                        </div>'
       }
     }
   }
