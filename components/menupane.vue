@@ -11,13 +11,17 @@
         <router-link :to="{ path: item.src }" class="menu-pane__item__link">{{ item.title }}</router-link>
       </li>
       <li class="menu-pane__item dropdown" v-else-if="item.subRoute">
-          <router-link :to="{ path: item.src }" class="menu-pane__item__link">{{ item.title }}</router-link>
-          <i class="chevron-square-down"></i>
-          <ul class="menu-pane__sub-items__list">
-            <li class="menu-pane__sub-item" v-for="subItem in item.subRoute">
-              <router-link :to="{ path: subItem.src }" class="menu-pane__item__link">{{ subItem.title }}</router-link>
-            </li>
-          </ul>
+          <!--<router-link :to="{ path: item.src }" class="menu-pane__item__link">{{ item.title }}</router-link>-->
+          <div class="menu-pane__item__link dropdown__trigger justify-content-between" v-on:click="clickToggle = !clickToggle">
+            {{ item.title }}<span class="dropdown__icon margin-right-10"><i class="fas fa-chevron-down"></i></span>
+          </div>
+          <div class="dropdown__list-container" v-if="clickToggle">
+            <ul class="menu-pane__sub-items__list dropdown__list">
+              <li class="menu-pane__sub-item" v-for="subItem in item.subRoute">
+                <router-link :to="{ path: subItem.src }" class="menu-pane__item__link">{{ subItem.title }}</router-link>
+              </li>
+            </ul>
+          </div>
       </li>
     </ul>
   </div>
@@ -29,11 +33,18 @@ import base from '@/static/data/base.json';
 export default {
   data() {
     return {
-      base
+      base,
+      clickToggle: true
     }
   }
 }
 </script>
 
 <style lang="scss">
+.dropdown__trigger {
+  cursor: pointer;
+}
+.dropdown__list-container {
+  transition: 1s;
+}
 </style>
