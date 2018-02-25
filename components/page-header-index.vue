@@ -41,6 +41,7 @@
 		background: $color-black;
 		justify-content: center;
 		align-items: center;
+    margin: 0;
 
 		.page-header__info {
 			width: 100%;

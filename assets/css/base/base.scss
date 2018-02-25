@@ -1,6 +1,22 @@
 * {
   margin: 0;
   padding: 0;
+
+  &::-webkit-scrollbar-track {
+      box-shadow: 1px 2px 4px rgba(0,0,0,1);
+  }
+
+  &::-webkit-scrollbar-thumb {
+      background: yellow;
+      border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar {
+      width: .5em;
+      height: .7em;
+      background: #f2f2f2;
+      border-radius: 8px;
+  }
 }
 
 *,
@@ -72,5 +88,4 @@ pre {
 }
 
 #app {
-  height: 100vh;
 }

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="content__info margin-5pc">
     <div class="" v-if="!message">
       <h3>{{ title }}</h3>
       <ul>

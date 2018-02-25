@@ -24,7 +24,46 @@
         "message" : "",
         "bestPractices" : "",
         "howToUse" : "",
-        "codeExample" : "",
+        "codeExample" : [
+          "<div class=\"content__buttons\">",
+          "<ul class=\"content__buttons__list\">",
+          "<li class=\"content__buttons__item\">",
+          "<div class=\"content__buttons__block\">",
+          "<asp:Button ID=\"btnConfirmar\" runat=\"server\" Text=\"Confirmar\" CssClass=\"content__buttons__btn\" Visible=\"true\"  OnClick=\"bntConfirmar_Click\"/>",
+          "</div>",
+          "</li>",
+          "</ul>",
+          "</div>"
+        ],
+        "code": [
+          {
+            "l" : "<div class=\"content__buttons\">"
+          },
+          {
+            "l" : "<ul class=\"content__buttons__list\">"
+          },
+          {
+            "l" : "<li class=\"content__buttons__item\">"
+          },
+          {
+            "l" : "<div class=\"content__buttons__block\">"
+          },
+          {
+            "l" : "<asp:Button ID=\"btnConfirmar\" runat=\"server\" Text=\"Confirmar\" CssClass=\"content__buttons__btn\" Visible=\"true\"  OnClick=\"bntConfirmar_Click\"/>"
+          },
+          {
+            "l" : "</div>"
+          },
+          {
+            "l" : "</li>"
+          },
+          {
+            "l" : "</ul>"
+          },
+          {
+            "l" : "</div>"
+          }
+        ],
         "titleInfo" : "Guidelines list",
         "infoMessage" : "Lorem impsum asodifhosdgi",
         "listInfo" : [

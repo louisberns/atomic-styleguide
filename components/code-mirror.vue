@@ -1,9 +1,10 @@
 <template lang="html">
-  <div class="code-mirror">
+  <div class="code-mirror margin-5pc">
     <pre>
-      <code class="hljs">
-        {{ codeExample }}
-      </code>
+      <!--<code class="hljs">
+        <span v-for="i in codeExample">{{ i }}</span>
+      </code>-->
+      <slot name="codeSlot" class="hljs"></slot>
     </pre>
   </div>
 </template>
@@ -13,7 +14,7 @@
   export default {
     props: {
       codeExample: {
-        type: String
+        type: Array
       }
     }
   }

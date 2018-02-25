@@ -23,4 +23,9 @@
 
 <style lang="scss">
   @import './assets/css/main.scss';
+
+  #app {
+    justify-content: space-between;
+    position: relative;
+  }
 </style>
