@@ -36,7 +36,7 @@
 	@import '../assets/css/base/variables.scss';
 
 	.index-page {
-		min-height: 100vh;
+		min-height: 40vh;
 		width: 100%;
 		background: $color-black;
 		justify-content: center;
@@ -56,7 +56,7 @@
 
 			.page-header__img {
 				width: 100%;
-				max-width: 250px;
+				max-width: 180px;
 				align-self: center;
 				justify-self: center;
 				margin: 20px 0;

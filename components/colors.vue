@@ -1,7 +1,7 @@
 <template>
-<div class="">
+<div class="colors margin-5pc">
 
-  <div class="example">
+  <div class="padding-bottom-50">
     <titleComponent>
       <span slot="title">Cores primárias</span>
     </titleComponent>
@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <div class="example">
+  <div class="padding-bottom-50">
     <titleComponent>
       <span slot="title">Cores secundárias</span>
     </titleComponent>
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div class="example">
+  <div class="padding-bottom-50">
     <titleComponent>
       <span slot="title">Cores de feedback</span>
     </titleComponent>

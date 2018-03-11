@@ -4,7 +4,8 @@
   max-width: 250px;
   flex-basis: 250px;
   flex-grow: 1;
-  border-right: 1px solid;
+  border: 0;
+  box-shadow: 0 0 5px rgba(0,0,0,.3);
 
   .menu-pane {
     width: 100%;

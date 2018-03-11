@@ -64,9 +64,12 @@ module.exports = {
   loading: { color: '#ffff00', height: '5px' },
 
   plugins: [
-    { src: '~plugins/highlights.js', ssr: false }
+    /*{ src: '~plugins/highlights.js', ssr: false }*/
   ],
 
   build: {
+    vendor: [
+      '~/plugins/highlights.js'
+    ]
   }
 }

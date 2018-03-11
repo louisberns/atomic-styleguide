@@ -13,8 +13,11 @@
         </li>
         <li class="menu-pane__item dropdown" v-else-if="item.subRoute">
             <!--<router-link :to="{ path: item.src }" class="menu-pane__item__link">{{ item.title }}</router-link>-->
-            <div class="menu-pane__item__link dropdown__trigger justify-content-between" v-on:click="clickToggle = !clickToggle">
-              {{ item.title }}<span class="dropdown__icon margin-right-10"><i class="fas fa-chevron-down"></i></span>
+            <div class="menu-pane__item__link justify-content-between" v-on:click="toggleMenu(), clickToggle = !clickToggle">
+              <router-link :to="{ path: item.src }" class="menu-pane__item__link">
+                <span>{{ item.title }}</span>
+                <span class="dropdown__icon dropdown__trigger margin-right-30"><i class="fas fa-chevron-right"></i></span>
+              </router-link>
             </div>
             <div class="dropdown__list-container" v-if="clickToggle">
               <ul class="menu-pane__sub-items__list dropdown__list">
@@ -43,6 +46,17 @@ export default {
 </script>
 
 <style lang="scss">
+.dropdown__icon {
+  position: absolute;
+  right: 10px;
+  z-index: 100;
+
+  .fa-chevron-right {
+    &.closed {
+      transform: rotate(90deg);
+    }
+  }
+}
 .dropdown__trigger {
   cursor: pointer;
 }

@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <div class="title padding-left-20 ">
+  <div class="title">
     <h2><slot name="title"></slot></h2>
   </div>
 
